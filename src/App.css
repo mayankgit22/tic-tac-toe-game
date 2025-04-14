@@ -38,7 +38,16 @@ background-color: rgb(66, 115, 250);
 padding: 10px;
 border-radius: 20px;}
 .square.winner{
-  background-color: green;
+/* background-color: green; */
   color: white;
+  /* font-style: ; */
   font-weight: bold;
+  /* position: absolute; */
+  background: linear-gradient(to right, #ff4b2b, #ff416c); /* Gradient red-pink */
+  /* height: 6px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 65, 108, 0.8);
+  z-index: 10;
+  transform-origin: center;
+  transition: all 0.3s ease-in-out;
 }
