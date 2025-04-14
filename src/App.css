@@ -18,7 +18,7 @@ body{
 .square{
   width: 100px;
   height: 100px;
-  border: 2px solid white;
+  border: 2px solid rgb(43, 46, 211);
   display: flex;
   margin: 0px;
   padding: 5px;
@@ -32,3 +32,8 @@ body{
 background-color: rgb(66, 115, 250);
 padding: 10px;
 border-radius: 20px;}
+.square.winner{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
